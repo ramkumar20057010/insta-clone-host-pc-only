@@ -1,0 +1,458 @@
+.home {
+  width: auto;
+  min-height: 550px;
+  display: grid;
+  grid-template-columns: 22% 53% 25%;
+  justify-content: center;
+}
+
+.sidebar {
+  width: 22%;
+  height: 550px;
+  position: fixed;
+  padding: 10px;
+}
+
+.sidebar img {
+  width: 180px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.navbar {
+  list-style-type: none;
+  width: 120px;
+  height: 330px;
+  cursor: pointer;
+  margin-top: -20px;
+}
+
+.navbar li {
+  width: 180px;
+  height: 30px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.navbar i {
+  margin-right: 20px;
+}
+
+.sideprofile {
+  cursor: pointer;
+  width: 170px;
+  display: flex;
+  padding: 5px;
+  cursor: pointer;
+  height: 50px;
+}
+
+.sideprofile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-right: 30px;
+  margin-left: -45px;
+}
+
+.more {
+  margin-top: 70px;
+  list-style-type: none;
+  width: 220px;
+  height: 70px;
+  margin-left: -10px;
+}
+
+.more i {
+  margin-right: 30px;
+}
+
+.more li {
+  cursor: pointer;
+  width: 200px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.feed {
+  width: auto;
+  min-height: 640px;
+  padding: 10px;
+}
+
+.storylist {
+  width: auto;
+  height: 100px;
+  display: flex;
+  gap: 30px;
+  padding: 5px;
+}
+
+.storyprofile {
+  width: 50px;
+  cursor: pointer;
+  height: 50px;
+  justify-items: center;
+  align-content: center;
+}
+
+.storyprofile h4 {
+  font-size: 11px;
+}
+
+.storyprofborder {
+  width: 50px;
+  padding: 3px;
+  height: 50px;
+  background: linear-gradient(110deg, rgb(249, 150, 29), rgb(252, 252, 41), rgb(237, 38, 38));
+  border-radius: 50%;
+}
+
+.storyprofile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.viewstory {
+  width: auto;
+  min-height: 600px;
+  background-size: cover;
+}
+
+.viewstorypf {
+  width: auto;
+  height: 70px;
+  display: flex;
+  backdrop-filter: blur(10px);
+  align-items: center;
+  gap: 30px;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.viewstorypf h3 {
+  color: white;
+  font-size: 30px;
+}
+
+.viewstorypf img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.storyimg {
+  width: auto;
+  position: relative;
+  height: 600px;
+  align-content: center;
+  backdrop-filter: blur(10px);
+
+}
+
+.storyimg img {
+  width: 50vw;
+  height: 100vh;
+  border-radius: 10%;
+  object-fit: contain;
+}
+
+.storyimg button {
+  position: absolute;
+  top: 300px;
+  margin-left: -25px;
+  background: lightskyblue;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 30px;
+  border-radius: 100%;
+}
+
+.postlist {
+  width: auto;
+  padding: 10px;
+  min-height: 480px;
+  justify-items: center;
+}
+
+.post {
+  margin: 20px;
+  width: 330px;
+  padding: 7px;
+  min-height: 450px;
+  border: 2px solid lightgrey;
+  border-radius: 30px;
+}
+
+.post img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.postprofile {
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  height: 70px;
+
+}
+
+.profimg img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+
+.postprofile button {
+  margin-right: 25px;
+  border: none;
+  width: 70px;
+  background: lightskyblue;
+  color: white;
+  border-radius: 30px;
+  height: 45px;
+}
+
+.profimg {
+  margin-left: 5px;
+  display: flex;
+}
+
+.postdetails {
+  height: 20px;
+  list-style-type: none;
+  display: flex;
+  margin-left: -25px;
+  gap: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.post p {
+  margin-left: 20px;
+}
+
+.comments {
+  padding: 5px;
+}
+
+.comments input {
+  border: none;
+  width: 300px;
+  outline: none;
+  border-bottom: 1px solid lightskyblue;
+}
+
+.comments button {
+  border: none;
+  color: white;
+  background: lightskyblue;
+  border-radius: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.suggestions {
+  width: auto;
+  min-height: 600px;
+}
+
+.suggestprofile {
+  width: auto;
+  align-content: center;
+  height: 70px;
+  justify-content: space-between;
+  display: flex;
+
+}
+
+.suggestprofile img {
+  margin-top: 10px;
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.suggestpfdetails h2 {
+  font-size: 20px;
+}
+
+.suggestpfdetails h3 {
+  font-size: 15px;
+  color: grey;
+  margin-top: -10px;
+}
+
+.suggestprofile button {
+  border: none;
+  color: lightskyblue;
+  background: transparent;
+  font-size: 15px;
+}
+
+.suggesthead {
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggestpeople {
+  width: auto;
+  min-height: 400px;
+  padding: 10px;
+}
+
+.suggest1 {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  padding: 5px;
+}
+
+.suggest1 img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.suggest1 h3 {
+  font-size: 17px;
+}
+
+.suggest1 button {
+  border: none;
+  color: white;
+  background: lightskyblue;
+  padding: 5px;
+  font-size: 13px;
+  width: 70px;
+  border-radius: 20px;
+}
+
+.suggestions p {
+  color: grey;
+  font-size: 15px;
+}
+.profile{
+  width: auto;
+  min-height: 550px;
+  position: relative;
+  justify-items: center;
+  
+  padding: 10px;
+}
+.viewpf{
+  width: auto;
+  min-height: 550px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.viewpf img{
+  width: 200px;
+  object-fit: cover;
+  border-radius: 100%;
+  height: 200px;
+}
+.profdetails{
+  width: 300px;
+  min-height: 200px;
+}
+.profdetails h2{
+  font-size: 30px;
+
+}
+.profdetails h3{
+  color: grey;
+  margin-top: -15px;
+}
+.profcont{
+  display: flex;
+  gap: 20px;
+}
+.profcont p{
+  cursor: pointer;
+}
+.profcont mark{
+  color: grey;
+  background: none;
+}
+.profdetails button{
+  width: 300px;
+  padding: 5px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+.editprof{
+  width: 300px;
+  height: 150px;
+  padding: 20px;
+}
+.editprof input{
+  border: none;
+  border-bottom: 1px solid lightskyblue;
+  padding: 3px;
+  outline: none;
+}
+.editprof button{
+  border: none;
+  width: 150px;
+  background: lightskyblue;
+  color: white;
+  padding: 3px
+}
+.about{
+  margin-top: 50px;
+  color: grey;
+}
+.followers{
+  background: #f2f2f2;
+  position: absolute;
+  border-radius: 50px;
+  padding: 20px;
+  top: 100px;
+  width: 410px;
+  min-height: 200px;
+  margin-left: -50px;
+  list-style-type: none;
+}
+.follow1{
+  width: 400px;
+  height: 300px;
+  overflow-x: hidden;
+  
+}
+.follow1 li{
+  width: 400px;
+  padding: 10px;
+  align-items: center;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.follow1 img{
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+.follow1 button{
+  width: 70px;
+  background: lightskyblue;
+}
+.cancel{
+  border: none;
+  background: transparent;
+  font-size: 25px;
+  margin-left: 230px;
+}
