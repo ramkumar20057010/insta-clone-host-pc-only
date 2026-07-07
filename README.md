@@ -10,16 +10,16 @@ A sleek, responsive Instagram UI clone built with React.js, designed to mimic th
 ## 📸 Screenshots
 
 ### Home Feed & Stories
-![Home Feed](images/insta_home.jpg)
+![Home Feed](images/s1.png)
 
 ### Profile Page
-![Profile Page](images/insta_profile.jpg)
+![Profile Page](images/s2.png)
 
 ### Story Viewer
-![Story Viewer](images/insta_story.jpg)
+![Story Viewer](images/s3.png)
 
 ### Post Interactions
-![Post Details](images/insta_post.jpg)
+![Post Details](images/s4.png)
 
 ---
 
