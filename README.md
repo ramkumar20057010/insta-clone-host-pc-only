@@ -3,7 +3,7 @@
 A sleek, responsive Instagram UI clone built with React.js, designed to mimic the core features and aesthetic of the popular social media platform.
 
 ## 🚀 Live Demo
-<a href="https://insta-clone-host-pc-only.vercel.app" target="_blank" rel="noopener noreferrer">Click here to view the Instagram Clone in a new tab</a>
+[https://insta-clone-host-pc-only.vercel.app](https://insta-clone-host-pc-only.vercel.app)
 
 ---
 
