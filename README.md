@@ -1,16 +1,40 @@
-# React + Vite
+# Instagram Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, responsive Instagram UI clone built with React.js, designed to mimic the core features and aesthetic of the popular social media platform.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+<a href="https://insta-clone-host-pc-only.vercel.app" target="_blank" rel="noopener noreferrer">Click here to view the Instagram Clone in a new tab</a>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📸 Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Home Feed & Stories
+![Home Feed](images/insta_home.jpg)
 
-## Expanding the ESLint configuration
+### Profile Page
+![Profile Page](images/insta_profile.jpg)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Story Viewer
+![Story Viewer](images/insta_story.jpg)
+
+### Post Interactions
+![Post Details](images/insta_post.jpg)
+
+---
+
+## 🛠 Features
+- **UI/UX Design:** Mimics the familiar Instagram layout for an authentic user experience.
+- **Stories:** Interactive horizontal story bar at the top of the feed.
+- **Feed:** Scrollable post feed with mock content and user engagement UI.
+- **Profile Management:** View profiles, edit profile options, and manage follower/following counts.
+- **Suggestions:** "Suggested for you" sidebar to enhance the social experience.
+- **Responsive:** Optimized for a clean desktop viewing experience.
+- **Deployment:** Fast and reliable hosting on Vercel.
+
+## 💻 Tech Stack
+- **Frontend:** React.js, HTML5, CSS3, JavaScript
+- **Deployment:** Vercel
+
+---
+*Built with passion by Ramkumar S.*
